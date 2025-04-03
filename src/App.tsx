@@ -650,7 +650,7 @@ function App() {
               <div className="group bg-white/5 backdrop-blur-lg rounded-xl overflow-hidden transform-gpu transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 border border-white/10 hover:border-blue-500/50">
                 <div className="aspect-video bg-gradient-to-br from-purple-500/20 to-pink-500/20 relative overflow-hidden">
                   <img 
-                    src="/images/images/ai-emotional.webp"
+                    src="/images/ai-emotional.png"
                     alt="Mobile Banking App"
                     className="w-full h-full object-cover opacity-75 group-hover:scale-110 transition-transform duration-500"
                   />
