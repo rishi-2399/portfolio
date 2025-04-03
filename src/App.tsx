@@ -115,7 +115,7 @@ function App() {
         <div className="max-w-7xl mx-auto flex justify-between items-center">
         <div className="flex items-center gap-2 hover-scale">
   <img
-    src="dist/assets/photos/image 2.jpg" // Replace with your actual logo path
+    src="src/photos/image 2.jpg" // Replace with your actual logo path
     alt="Logo"
     className="w-8 h-8 object-contain" // Adjust size as needed
   />
@@ -158,7 +158,7 @@ function App() {
                 <div className="bg-white rounded-2xl shadow-xl p-8 transform-gpu transition-all duration-500 hover:shadow-2xl hover:scale-105">
                   <div className="profile-image-container mb-6">
                     <img
-                      src="dist/assets/photos/intro_image.jpg"
+                      src="src/photos/intro_image.jpg"
                       alt="Profile"
                       className="w-full aspect-square rounded-full object-cover shadow-lg"
                     />
@@ -236,7 +236,7 @@ function App() {
               <div className="space-y-6">
                 <div className="text-justify animated-border bg-white/5 backdrop-blur-lg rounded-xl p-8 flex gap-6">
                   <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center p-4">
-                    <img src="dist/assets/photos/CTSH.png" alt="cogni_img"/>
+                    <img src="src/photos/CTSH.png" alt="cogni_img"/>
                   </div>
                   <div>
                     <h4 className="text-xl font-semibold">FULL STACK ENGINEER</h4>
@@ -254,7 +254,7 @@ function App() {
                 
                 <div className="text-justify animated-border bg-white/5 backdrop-blur-lg rounded-xl p-8 flex gap-6">
                   <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center p-4">
-                    <img src="dist/assets/photos/CTSH.png" alt="cogni_img"/>
+                    <img src="src/photos/CTSH.png" alt="cogni_img"/>
                   </div>
                   <div>
                     <h4 className="text-xl font-semibold">SOFTWARE ENGINEER INTERN</h4>
@@ -278,7 +278,7 @@ function App() {
               </div>
               <div className="animated-border bg-white/5 backdrop-blur-lg rounded-xl p-8 flex gap-6">
                 <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center p-4">
-                  <img src="dist/assets/photos/UTA_logomark.png" alt="uta-logo" />
+                  <img src="src/photos/UTA_logomark.png" alt="uta-logo" />
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold">Master's in Computer Science</h4>
@@ -292,7 +292,7 @@ function App() {
               <p></p>
               <div className="animated-border bg-white/5 backdrop-blur-lg rounded-xl p-8 flex gap-6">
                 <div className="w-20 h-20 bg-white rounded-lg flex items-center justify-center p-4">
-                  <img src="dist/assets/photos/sppu_logo.png" alt="sppu-logo" />
+                  <img src="src/photos/sppu_logo.png" alt="sppu-logo" />
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold">Bachelor's of Engineering in Computer</h4>
@@ -318,7 +318,7 @@ function App() {
                     <p className="text-blue-400">ServiceNow Inc.</p>
                   </div>
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                    <img src="dist/assets/photos/Snow_logo.png" alt="snow-logo" />
+                    <img src="src/photos/Snow_logo.png" alt="snow-logo" />
                   </div>
                 </div>
                 
@@ -328,7 +328,7 @@ function App() {
                     <p className="text-blue-400">ServiceNow Inc.</p>
                   </div>
                   <div className="w-12 h-12 rounded-lg flex items-center justify-center">
-                  <img src="dist/assets/photos/Snow_logo.png" alt="snow-logo" />
+                  <img src="src/photos/Snow_logo.png" alt="snow-logo" />
                   </div>
                 </div>
                 <div className="certificate-card bg-white/5 backdrop-blur-lg rounded-xl p-6 flex justify-between items-center">
@@ -337,7 +337,7 @@ function App() {
                     <p className="text-blue-400">Amazon Web Services(AWS)</p>
                   </div>
                   <div className="w-12 h-12 rounded-lg bg-white flex items-center justify-center">
-                    <img src="dist/assets/photos/aws-color.png" alt="aws-logo" />
+                    <img src="src/photos/aws-color.png" alt="aws-logo" />
                   </div>
                 </div>
               </div>
@@ -463,37 +463,37 @@ function App() {
                 <div className="grid grid-cols-3 gap-4">
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-ec2-svgrepo-com.png" alt="aws-ec2-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-ec2-svgrepo-com.png" alt="aws-ec2-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">EC2</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-s3-svgrepo-com.png" alt="aws-s3-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-s3-svgrepo-com.png" alt="aws-s3-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">S3</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-lambda-svgrepo-com.png" alt="aws-lambda-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-lambda-svgrepo-com.png" alt="aws-lambda-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">Lambda</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-rds-svgrepo-com.png" alt="aws-rds-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-rds-svgrepo-com.png" alt="aws-rds-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">RDS</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-dynamodb-svgrepo-com.png" alt="aws-dynamodb-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-dynamodb-svgrepo-com.png" alt="aws-dynamodb-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">DynamoDB</p>
                   </div>
                   <div className="bg-gray-50 rounded-lg p-4 flex flex-col items-center justify-center w-28">
                     <div className="w-12 h-12 bg-white rounded-lg shadow-md flex items-center justify-center mb-2">
-                      <img src="dist/assets/photos/aws-cloudfront-svgrepo-com.png" alt="aws-cloudfront-logo" className="w-8 h-8"/>
+                      <img src="src/photos/aws-cloudfront-svgrepo-com.png" alt="aws-cloudfront-logo" className="w-8 h-8"/>
                     </div>
                     <p className="text-sm text-gray-700 font-medium text-center">CloudFront</p>
                   </div>
@@ -618,7 +618,7 @@ function App() {
               <div className="group bg-white/5 backdrop-blur-lg rounded-xl overflow-hidden transform-gpu transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 border border-white/10 hover:border-blue-500/50">
                 <div className="aspect-video bg-gradient-to-br from-blue-500/20 to-purple-500/20 relative overflow-hidden">
                   <img 
-                    src="dist/assets/photos/AI-finance-assistant.png"
+                    src="src/photos/AI-finance-assistant.png"
                     alt="AI-finance-assitant"
                     className="w-full h-full object-cover opacity-75 group-hover:scale-110 transition-transform duration-500"
                   />
@@ -650,7 +650,7 @@ function App() {
               <div className="group bg-white/5 backdrop-blur-lg rounded-xl overflow-hidden transform-gpu transition-all duration-500 hover:scale-[1.02] hover:bg-white/10 border border-white/10 hover:border-blue-500/50">
                 <div className="aspect-video bg-gradient-to-br from-purple-500/20 to-pink-500/20 relative overflow-hidden">
                   <img 
-                    src="dist/assets/photos/ai-emotional.webp"
+                    src="src/photos/ai-emotional.webp"
                     alt="Mobile Banking App"
                     className="w-full h-full object-cover opacity-75 group-hover:scale-110 transition-transform duration-500"
                   />
